@@ -1,0 +1,34 @@
+HTML tags used:
+html
+head
+meta
+title
+link
+script
+body
+nav
+div
+a
+img
+h1
+h3
+p
+button
+header
+main
+footer
+ul
+li
+
+CSS properties used:
+background-color
+color
+padding
+border-radius
+font-family
+
+JavaScript:
+JavaScript was used to add interactivity through a welcome button that displays a message when clicked.
+
+Bootstrap:
+Bootstrap was used to create a responsive layout and style components such as the navigation bar, buttons, cards, and containers.
