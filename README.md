@@ -1,93 +1,39 @@
-# 💻 CS50 Week 8 — Web Programming Projects
+# CS50x Week 8 – Web Programming
 
-This repository contains projects developed as part of Week 8 of Harvard's CS50 course, focused on web development using HTML, CSS, JavaScript, and Bootstrap.
+Problem sets from Week 8 of Harvard's CS50x: a multi-page personal website and an interactive trivia app, built with HTML, CSS, JavaScript and Bootstrap.
 
-The projects demonstrate the ability to build interactive web applications, structure multi-page websites, and apply responsive design principles.
+**Languages:** HTML, CSS, JavaScript · **Framework:** Bootstrap 5 · **Course:** [CS50x](https://cs50.harvard.edu/x/) · **Status:** Completed (2026)
 
----
+**Live site:** https://guilimati.github.io/CS50-week8/
 
-## 📁 Projects Included
+## Overview
 
-### 🌐 Homepage
+This week introduced front-end web development. I built a responsive personal website with four pages and a small trivia app that gives instant feedback using JavaScript. The website is deployed automatically to GitHub Pages with a GitHub Actions workflow.
 
-A multi-page personal website designed as a professional portfolio.
+## Projects
 
-#### 🔹 Features:
-- Responsive layout using Bootstrap
-- Navigation across multiple pages (Home, About, Journey, Contact)
-- Clean and structured UI
-- Interactive JavaScript element
-- Professional content highlighting background and career transition
+| Project | Folder | Description | Key concepts |
+|---|---|---|---|
+| Homepage | [`Homepage/`](Homepage) | Personal website with Home, About, Journey and Contact pages | Bootstrap layout and navbar, responsive design, DOM events |
+| Trivia | [`trivia/`](trivia) | Quiz with a multiple-choice and a free-response question and instant feedback | `querySelector`, `addEventListener`, input validation |
 
-#### 🎯 Purpose:
-This project represents my personal portfolio and showcases my transition from an engineering background into the field of Data Analytics.
+## How to run
 
-👉 **Live Website:**  
-https://guilimati.github.io/CS50-week8/
+Open `Homepage/index.html` or `trivia/index.html` in a browser, or visit the live site above.
 
----
+Deployment: every push to `main` triggers `.github/workflows/pages.yml`, which publishes the `Homepage/` folder to GitHub Pages.
 
-### 🧠 Trivia
+## What I learned
 
-An interactive quiz web application built using HTML, CSS, and JavaScript.
+- Structuring a multi-page website with shared navigation
+- Building responsive layouts with Bootstrap
+- Adding interactivity with JavaScript events
+- Deploying a static site with GitHub Pages and GitHub Actions
 
-#### 🔹 Features:
-- Multiple-choice questions
-- Immediate feedback on answers
-- Dynamic interaction using JavaScript
-- Simple and intuitive user interface
+## Academic honesty
 
-#### 🎯 Purpose:
-This project demonstrates the use of JavaScript to create interactivity and enhance user experience in a web environment.
+These solutions were written by me as part of CS50x. If you're taking the course, please follow CS50's [academic honesty policy](https://cs50.harvard.edu/x/honesty/) and write your own code.
 
 ---
 
-## 🛠️ Technologies Used
-
-- HTML5  
-- CSS3  
-- JavaScript  
-- Bootstrap 5  
-
----
-
-## 🎯 Learning Outcomes
-
-Through these projects, I developed:
-
-- Strong understanding of front-end web development fundamentals  
-- Ability to structure and organize multi-page applications  
-- Experience with responsive design and UI components  
-- Practical use of JavaScript for interactivity  
-- Improved problem-solving and logical thinking  
-
----
-
-## 👤 About Me
-
-I am an engineering professional with over 15 years of experience, currently transitioning into the field of Data Analytics.
-
-I will begin a Higher Diploma in Science Computing at the National College of Ireland in September, focusing on building strong technical and analytical skills.
-
----
-
-## 📬 Contact
-
-- GitHub: https://github.com/GuiLimaTi  
-- LinkedIn: https://www.linkedin.com/in/glimaalmeida  
-- Email: limagui@gmail.com  
-
----
-
-## 🚀 Future Improvements
-
-- Add real-world data analytics projects (Excel, Power BI, SQL)  
-- Expand portfolio with more interactive applications  
-- Improve UI/UX design across projects  
-- Continue developing technical skills in data analysis  
-
----
-
-## 📌 Final Note
-
-These projects represent an important step in my transition into the tech field, combining my previous professional experience with new technical skills and a strong commitment to continuous learning.
+**Guilherme Lima** · Aspiring IT Support Technician · [LinkedIn](https://www.linkedin.com/in/glimaalmeida) · [GitHub](https://github.com/GuiLimaTi)
